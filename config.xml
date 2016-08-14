@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<netConf>
+	<node id="0" type="xsd:ID" >
+		<port>9000</port>
+		<maxNumClients>5</maxNumClients>
+	</node>
+	<node id="1">
+		<port>9001</port>
+		<downloadNeighbor>5</downloadNeighbor>
+		<uploadNeighbor>2</uploadNeighbor>
+	</node>
+        <node id="2">
+		<port>9002</port>
+		<downloadNeighbor>1</downloadNeighbor>
+		<uploadNeighbor>3</uploadNeighbor>
+	</node>
+        <node id="3">
+		<port>9003</port>
+		<downloadNeighbor>2</downloadNeighbor>
+		<uploadNeighbor>1</uploadNeighbor>
+	</node>
+        <node id="4">
+		<port>9004</port>
+		<downloadNeighbor>3</downloadNeighbor>
+		<uploadNeighbor>5</uploadNeighbor>
+	</node>
+        <node id="5">
+		<port>9005</port>
+		<downloadNeighbor>4</downloadNeighbor>
+		<uploadNeighbor>1</uploadNeighbor>
+	</node>
+</netConf>
